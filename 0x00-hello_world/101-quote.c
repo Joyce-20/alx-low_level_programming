@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
- * main -write a c program that prints to the standard error
+ * main -print error message
  *
- * Return: 1
+ * Return: 1(failed)
 */
 int main(void)
 {
