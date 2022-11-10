@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print name of program
+ * main - print the number of arguments passed into it
  * @argc:command line argument count
  * @argv:command line arguement array
  * Return:0
@@ -9,11 +9,7 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
+	printf("%d\n", argc - 1);
 
-	for (i = 0; i < argc; i++)
-	{
-		printf("%s\n", argv[i]);
-	}
-	return (0);
+	return (sizeof(argv[0]) - sizeof(argv[0]));
 }
